@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "license": "MIT",
   "description": "A visualizer for sorting algorithms written with React & TS",
+  "homepage": "https://imax153.github.io/sorting-algorithm-visualiser/",
   "keywords": [
     "sorting-algorithms",
     "react",
@@ -18,7 +19,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "react": "^16.12.0",
@@ -30,6 +33,7 @@
     "@types/react": "^16.9.18",
     "@types/react-dom": "^16.9.5",
     "@types/styled-components": "4.4.2",
+    "gh-pages": "^2.2.0",
     "typescript": "^3.7.5"
   },
   "eslintConfig": {

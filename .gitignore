@@ -1,5 +1,5 @@
 # Build
-dist/
+build/
 
 # Dependencies
 node_modules/
